@@ -2,14 +2,14 @@
 	"Print to the f**k console": {
 		"prefix": "my-log",
 		"body": [
-			"console.log('fuck',$1);",
+			"console.log('wtf',$1);",
 		],
 		"description": "Log output to console"
 	},
 	"Tap to f**k console": {
 		"prefix": "my-tap",
 		"body": [
-			"tap((t: any)=>console.log('fuck', t)),",
+			"tap((t: any)=>console.log('wtf', t)),",
 		],
 		"description": "Log output to console"
 	},
