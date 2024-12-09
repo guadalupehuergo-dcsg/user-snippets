@@ -1,0 +1,9 @@
+{
+	"Update pdp:serve:ssr:local script": {
+		"prefix": "ssrlocal",
+		"body": [
+			"\"pdp:serve:ssr:local\": \"cd dist/apps/dcsg-ngx-pdp-ui && set PORT=4000& set LOG_LEVEL=detail& set EXPRESS_LOG_LEVEL=detail& set PROXY_LOG_LEVEL=debug& set REQUEST_TIMING_ENABLED=true& set ACTIVE_CLOUD_PROVIDER=AZ& node server\/server\","
+		],
+		"description": "Updates the serve:ssr:local script in package.json"
+	}
+}
